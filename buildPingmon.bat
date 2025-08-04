@@ -1,0 +1,1 @@
+pyinstaller --onefile --console --name "PingMonitor" --noupx pingmon.py

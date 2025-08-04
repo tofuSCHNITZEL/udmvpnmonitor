@@ -1,0 +1,23 @@
+# Requirements for Ping Monitor Script
+# Install with: pip install -r requirements.txt
+
+# SSH connectivity and remote command execution
+paramiko>=3.0.0
+
+# Cryptographic functions for secure credential storage
+# Includes Fernet encryption and PBKDF2 key derivation
+cryptography>=41.0.0
+
+# Standard library modules (included with Python, listed for reference):
+# - subprocess (for ping command execution)
+# - time (for sleep intervals)
+# - sys (for system operations)
+# - logging (for application logging)
+# - json (for configuration file format)
+# - os (for file operations and permissions)
+# - getpass (for secure password input)
+# - base64 (for encoding operations)
+# - platform (for machine-specific information)
+# - ipaddress (for IP address validation)
+# - secrets (for cryptographically secure random generation)
+# - typing (for type hints)
